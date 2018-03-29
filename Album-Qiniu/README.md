@@ -13,7 +13,7 @@
 2. 运行`python tool.py`，裁剪压缩图片
 3. 将新增的照片上传到七牛云
 3. 移动外层`photos`和`min_photos`文件夹下的图片到`album`下的对应文件夹中
-4. 运行`python make-json.py`，生成json文件
+4. 运行`python make-json.py`，生成json文件, 在60行和62行替换指定的生成json位置
 
 > 批量上传到七牛云，脚本是`upload-files-to-load.py`，在里面配置密匙和buckey存储空间名，用法`python upload-files-to-qiniu.py a/ dir`，可以把本地dir路径下的文件（dir可以是文件夹）上传到对应bucket下，并且前缀是`a/`。或者不写`a/`, 则上传后不带前缀.
 
