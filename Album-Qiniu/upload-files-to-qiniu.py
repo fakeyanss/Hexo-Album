@@ -21,7 +21,7 @@ secret_key = 'xxxxxxx' # 个人中心->密匙管理->SK
 bucket_name = 'photos' # 七牛空间名
 bucket_url = {
     "photos": "xxxxxx.bkt.clouddn.com",
-    "blog-source": "xxxxxx.bkt.clouddn.com",
+    "blog-source": "xxxxxx.bkt.clouddn.com", # 可以列多个, 以后换bucket方便替换
 }
 qiniu_auth = Auth(access_key, secret_key)
 
