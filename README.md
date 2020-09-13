@@ -1,5 +1,5 @@
 # Hexo博客添加相册
-* [原理及相关设置](https://foreti.me/2017/12/31/hexo-next-personal/#album)
+* [原理及相关设置](https://foreti.me/blog/2017/12/31/hexo-next-personal/#album)
 
 ## 使用七牛云图床
 > 使用七牛云做图床需要先安装python3.6环境，然后安装七牛SDK Python版`pip install qiniu`
